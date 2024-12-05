@@ -77,7 +77,7 @@ function CustomerOrdersTable() {
             <div className="w-3/4">
                 {customerOrdersData.length > 0 && (
                     <table className="w-full border-collapse border border-gray-300">
-                        <thead className="bg-gray-100">
+                        <thead>
                             <tr>
                                 <th className="border border-gray-300 p-2">Username</th>
                                 <th className="border border-gray-300 p-2">Email</th>
@@ -98,7 +98,7 @@ function CustomerOrdersTable() {
                     </table>
                 )}
             </div>
-            <button onClick={handleFetchCustomerOrdersData} className="bg-gray-300 hover:bg-gray-400 text-gray-800 py-2 px-4 rounded-l" >Refresh</button>
+            <button onClick={handleFetchCustomerOrdersData} className="px-3 py-1 bg-gray-200 text-gray-800 rounded hover:bg-gray-300" >Refresh</button>
         </div>
     );
 }

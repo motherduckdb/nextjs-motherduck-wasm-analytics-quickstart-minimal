@@ -6,7 +6,7 @@ This is a minimal example of how to use Next.js with the MotherDuck Wasm Client.
 
 Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMotherDuck-Open-Source%2Fnextjs-example-with-motherduck-wasm&stores=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22motherduck%22%2C%22productSlug%22%3A%22motherduck-subscription%22%7D%5D)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMotherDuck-Open-Source%2Fnextjs-example-with-motherduck-wasm&stores=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22motherduck%22%2C%22productSlug%22%3A%22motherduck%22%7D%5D)
 
 ## How to use
 

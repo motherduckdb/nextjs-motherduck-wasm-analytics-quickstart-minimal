@@ -48,7 +48,7 @@ const HintComponent: React.FC<HintComponentProps> = ({
         <h3 className="text-lg font-semibold mr-3">{title}</h3>
         <button 
           onClick={() => setIsExpanded(!isExpanded)}
-          className="px-3 py-1 bg-gray-200 rounded hover:bg-gray-300"
+          className="px-3 py-1 bg-gray-200 text-gray-800 rounded hover:bg-gray-300"
         >
           {isExpanded ? 'Hide Hint' : 'Show Hint'}
         </button>
