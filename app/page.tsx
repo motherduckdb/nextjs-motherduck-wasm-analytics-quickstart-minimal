@@ -87,7 +87,7 @@ function CustomerOrdersTable() {
                         </thead>
                         <tbody>
                             {customerOrdersData.map((orderItem, index) => (
-                                <tr key={index} className="hover:bg-gray-50">
+                                <tr key={index} className="hover:bg-gray-400">
                                     <td className="border border-gray-300 p-2">{orderItem.username}</td>
                                     <td className="border border-gray-300 p-2">{orderItem.email}</td>
                                     <td className="border border-gray-300 p-2 text-right">${orderItem.totalAmount.toFixed(2)}</td>
